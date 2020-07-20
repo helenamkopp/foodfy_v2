@@ -24,24 +24,38 @@ Para rodar a aplicação:
 - Após alguns instantes, deverá aparecer a seguinte tela:
 
 <p align="center">
-  <img src="./images-md/print.png" title="hover text">
+  <img src="./imagens/1.png" title="hover text">
 </p>
 
 ### Página sobre:
 
 <p align="center">
-  <img src="./images-md/sobre.png" title="hover text">
+  <img src="./imagens/2.png" title="hover text">
 </p>
 
 ### Página Receitas: 
 
 <p align="center">
-  <img src="./images-md/receitas.png" title="hover text">
+  <img src="./imagens/3.png" title="hover text">
 </p>
 
-### Modal da Página Receitas:
+### Receita selecionada:
+
+#### Imagem 1 -
 
 <p align="center">
-  <img src="./images-md/modal.png" title="hover text">
+  <img src="./imagens/4.png" title="hover text">
+</p>
+
+#### Imagem 2 -
+
+<p align="center">
+  <img src="./imagens/5.png" title="hover text">
+</p>
+
+#### Imagem 3 -
+
+<p align="center">
+  <img src="./imagens/6.png" title="hover text">
 </p>
 
