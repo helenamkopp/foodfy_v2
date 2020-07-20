@@ -1,7 +1,7 @@
-# Foodfy - versão 01
+# Foodfy - versão 0
 
 ## Descrição
-Desafio em frontend, proposto pelo programa Launchbase da Rocketseat, desenvolvido utilizando HTML 5, CSS 3 e JavaScript. 
+Desafio refatorado em frontend, proposto pelo programa Launchbase da Rocketseat, desenvolvido utilizando HTML 5, CSS 3 e JavaScript, organizadas algumas funcionalidades e melhorados alguns layouts. 
 
 ## Índice
 - [Requisitos](#Requisitos)
