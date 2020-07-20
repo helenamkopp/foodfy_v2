@@ -28,7 +28,7 @@ server.get("/sobre", function(req, res){
 })
 
 server.get("/receitas", function(req, res){
-    return res.render("receitas", { items: receitas })
+    return res.render("receitas", {items: receitas})
 })
 
 server.get("/recipe/:index", function(req, res){
@@ -38,6 +38,6 @@ server.get("/recipe/:index", function(req, res){
 
 })
 
-server.listen(5001, function(){
+server.listen(5004, function(){
     console.log("server is running!")
 })
