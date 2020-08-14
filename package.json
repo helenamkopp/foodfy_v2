@@ -1,18 +1,24 @@
 {
-  "name": "foodfy_v2",
+  "name": "foodfy",
   "version": "1.0.0",
-  "description": "## Descrição Desafio em frontend, proposto pelo programa Launchbase da Rocketseat, desenvolvido utilizando HTML 5, CSS 3 e JavaScript.",
-  "main": "data.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "npm-run-all -p nodemon browser-sync",
+    "nodemon": "nodemon server.js",
+    "browser-sync": "browser-sync start --proxy http://localhost:5001 --files ."
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "npm-run-all": "^4.1.5",
+    "nunjucks": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.4",
-    "nunjucks": "^3.2.1"
-  }
+  "license": "ISC"
 }

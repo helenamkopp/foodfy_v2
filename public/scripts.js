@@ -1,19 +1,25 @@
-const receitas = document.querySelectorAll(".receitas")
-const esconder = document.querySelectorAll("#action")
+    const showHides = document.getElementsByClassName("topic")
+    for (let showHide of showHides ) {
+        showHide.addEventListener("click", function(){
+            const topic_title = showHide.querySelectorAll("h4");
+            const topic_content = showHide.getElementsByClassName("topic-content");
+            if(topic_title[0].textContent === 'MOSTRAR'){
+                topic_title[0].textContent = 'ESCONDER';
+                topic_content[0].classList.add('show');
+                topic_content[0].classList.remove('hide');
+            }else{
+                topic_title[0].textContent = 'MOSTRAR';
+                topic_content[0].classList.add('hide');
+                topic_content[0].classList.remove('show');
+            }
+        })
+    }
 
-for(let i = 0; i < receitas.length; i++) {
-    receitas[i].addEventListener("click", function(){
-        window.location.href = `/recipe/${i}`
-    })
-}
+const currentPage = location.pathname
+const menuItems = document.querySelectorAll("header .links a")
 
-for(let i = 0; i < esconder.length; i++) {
-    esconder[i].addEventListener("click", function(){
-        document.querySelector("#lista" + i).classList.toggle("esconder")
-        if(document.querySelector("#lista" + i).classList.contains("esconder")){
-           esconder[i].innerHTML = "mostrar"
-        } else {
-            esconder[i].innerHTML = "esconder"
-        }
-    })
+for (item of menuItems) {
+    if (currentPage.includes(item.getAttribute("href"))) {
+        item.classList.add("active")
+    }
 }

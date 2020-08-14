@@ -1,61 +1,63 @@
-# Foodfy - versão 0
+# Foodfy - versão 3
 
 ## Descrição
-Desafio refatorado em frontend, proposto pelo programa Launchbase da Rocketseat, desenvolvido utilizando HTML 5, CSS 3 e JavaScript, organizadas algumas funcionalidades e melhorados alguns layouts. 
+Desafio refatorado em frontend, proposto pelo programa Launchbase da Rocketseat, desenvolvido utilizando HTML 5, CSS 3 e JavaScript, com as funcionalidades e pastas organizadas e construída a parte administrativa. 
+
+Utilizamos também a template engine nunjucks para reaproveitamento de código. 
 
 ## Índice
 - [Requisitos](#Requisitos)
 - [Instalação](#Instalação)
 - [Uso](#Uso)
+- [Explicação](#Explicação)
+- [Erros](#Erros)
+
 
 ## Requisitos
-Não é obrigatório, mas para facilitar o uso, abri as paginas utilizando a extensão Live Server do VS Code. 
+- Siga os passos de instalação abaixo. 
+
 
 ## Instalação
-- No VS Code, na barra lateral esquerda, clicar em Extensions;
-- Digitar Live Server;
-- Baixar e deixar a mesma habiltada;
+- Utilizar o comando
+  - No terminal, utilizar o comando: 
+  ``` 
+  npm install 
+  ```
+Obs: Ele é responsável por instalar todas as dependências de desenvolvimento utilizadas no projeto. Elas serão responsáveis pelo seu funcionamento correto.  
+
 
 ## Uso
 Para rodar a aplicação:
-- Abrir o arquivo index.html
-- Com as teclas ctrl+shift+p , digitar Live Server: Open with live server
-- Apertar a tecla enter.
-- Após alguns instantes, deverá aparecer a seguinte tela:
+- No terminal, utilize o comando:
+```
+npm start
+```
+- A aplicação deverá abrir no endereço: 
+
+http://localhost:3000
+## Explicação:
+
+Nessa versão o projeto possui duas telas principais, a visualizada pelos clientes e uma parte administrativa, acessada exclusivamente pelas rotas.
+
+
+Acessos:
+- página administrativa principal, utilize o endereço: http://localhost:3000/admin/recipes
+- página de visualizaçao dos clientes, utilize o endereço: http://localhost:3000
+
+Apresentação em vídeo:
+
 
 <p align="center">
-  <img src="./imagens/1.png" title="hover text">
+  <img alt="Gif Foodfy" src="page.gif"/>
 </p>
 
-### Página sobre:
 
-<p align="center">
-  <img src="./imagens/2.png" title="hover text">
-</p>
+## Erros
+Como a aplicação ainda está em desenvolvimento e terá novas versões, é possível encontrar alguns bugs. 
 
-### Página Receitas: 
+Caso haja muita lentidão entre as funcionalidades, sugiro que você pare o servidor (ctrl + c) e o inicie novamente com npm start - uma nova aba abrirá.
 
-<p align="center">
-  <img src="./imagens/3.png" title="hover text">
-</p>
+Caso você não queira reiniciar o servidor, um ctrl + r atualizará a página e pode resolver o problema de lentidão.
 
-### Receita selecionada:
-
-#### Imagem 1 -
-
-<p align="center">
-  <img src="./imagens/4.png" title="hover text">
-</p>
-
-#### Imagem 2 -
-
-<p align="center">
-  <img src="./imagens/5.png" title="hover text">
-</p>
-
-#### Imagem 3 -
-
-<p align="center">
-  <img src="./imagens/6.png" title="hover text">
-</p>
+Você pode acompanhar as alterações que esta fazendo no arquivo ```data.json``` na pasta raíz, ele mostrará o array com membros e instrutores. Ali você pode ver também os perfis deletados e as edições realizadas.
 

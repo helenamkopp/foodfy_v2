@@ -1,0 +1,19 @@
+{% extends "./layout.njk" %}
+
+{% block content %}
+<div class="container">
+    <div class="form-header">
+      <h2>{{ pageTitle }}</h2>
+      <button type="submit" form="post">Salvar receita</button>
+    </div>
+    <form method="POST" action="/admin/recipes" id="post">
+      {% include "admin/fields.njk" %}
+    </form>
+
+    {% block script %} 
+      <script src="/add-script.js"></script>
+    {% endblock %}
+
+</div>
+
+{% endblock content %}

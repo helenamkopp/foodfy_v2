@@ -1,0 +1,76 @@
+<section class="details">
+
+    <div>
+        <h4>Imagem da receita</h4>
+        <input 
+        type="text"
+        name="image"
+        value="{{ recipe.image }}"
+        >
+    </div>
+
+    <div>
+        <h4>Titulo da receita</h4>
+        <input 
+        type="text"
+        name="title"
+        value="{{ recipe.title }}"
+        >
+    </div>
+
+    <div>
+        <h4>Autor da receita</h4>
+        <input 
+        type="text"
+        name="author"
+        value="{{ recipe.author }}"
+        >
+    </div>
+
+    <div id=ingredients>
+        <h4>Ingredientes</h4>
+        {% for i in recipe.ingredients %}
+            <div class="add_ingredient">
+                <input 
+                type="text"
+                name="ingredients[]"
+                value="{{ i }}"
+                >
+            </div>
+        {% endfor %}
+    </div>
+
+    <a class="insert_ingredient">Adicionar novo ingrediente</a>
+    
+
+            {% block script %} 
+                <script src="/add-script.js"></script>
+            {% endblock %}
+
+
+    <div id=prepare>
+        <h4>Modo de preparo</h4>
+        {% for i in recipe.prepare %}
+            <div class="add_prepare">
+                <input 
+                type="text"
+                name="prepare[]"
+                value="{{ i }}"
+                >
+            </div>
+        {% endfor %}
+    </div>
+    <a class="insert_prepare">Novo passo</a>
+
+
+    <div>
+        <h4>Informacoes adicionais</h4>
+        <input 
+        id="adicionais" 
+        type="text"
+        name="further_information"
+        value="{{ recipe.information }}"
+        >
+    </div>
+
+</section>
