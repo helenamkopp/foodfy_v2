@@ -1,13 +1,16 @@
 # Foodfy - versão 3
 
 ## Descrição
-Desafio refatorado em frontend, proposto pelo programa Launchbase da Rocketseat, desenvolvido utilizando HTML 5, CSS 3 e JavaScript, com as funcionalidades e pastas organizadas e construída a parte administrativa. 
+Desafio refatorado em frontend, proposto pelo programa Launchbase da Rocketseat, desenvolvido utilizando HTML 5, CSS 3 e JavaScript, com as funcionalidades, pastas organizadas, construída a parte administrativa e dados persistidos em banco de dados Postgres.
 
-Utilizamos também a template engine nunjucks para reaproveitamento de código. 
+Nessa versão também foram adicionadas as funcionalidades de pesquisa por receita, paginação, e relacionamento entre receitas e chefs (cada receita "pertence" a um chef)
+
+É utilizada a template engine nunjucks para reaproveitamento de código. 
 
 ## Índice
 - [Requisitos](#Requisitos)
 - [Instalação](#Instalação)
+- [Criação do Banco de Dados](#DB)
 - [Uso](#Uso)
 - [Explicação](#Explicação)
 - [Erros](#Erros)
@@ -25,6 +28,12 @@ Utilizamos também a template engine nunjucks para reaproveitamento de código.
   ```
 Obs: Ele é responsável por instalar todas as dependências de desenvolvimento utilizadas no projeto. Elas serão responsáveis pelo seu funcionamento correto.  
 
+## DB
+
+Nessa versão os dados não são mais persistidos em um arquivo data.json e sim, em um banco de dados Postgres. 
+
+Utilizei o Dbeaver, criei um DB chamado foodfy com duas tabelas: recipes e chefs, adicionei suas colunas e eliminei o data.json do projeto. 
+
 
 ## Uso
 Para rodar a aplicação:
@@ -41,15 +50,39 @@ Nessa versão o projeto possui duas telas principais, a visualizada pelos client
 
 
 Acessos:
+
+Como a página ainda não está pronta, você poderá ver as rotas/ acessos no arquivo routes.js, mas os acessos principais serão nesses links abaixo:
+
 - página administrativa principal, utilize o endereço: http://localhost:3000/admin/recipes
+- página administrativa dos chefs, utilize o endereço: http://localhost:3000/admin/chefs
 - página de visualizaçao dos clientes, utilize o endereço: http://localhost:3000
 
 Apresentação em vídeo:
 
 
 <p align="center">
-  <img alt="Gif Foodfy" src="page.gif"/>
+  <img alt="Gif 1" src="databasefood1.gif"/>
 </p>
+
+<p align="center">
+  <img alt="Gif 2" src="databasefood2.gif"/>
+</p>
+
+Imagens: 
+
+Filtro de busca por receitas:
+
+<p align="center">
+  <img alt="Gif 1" src="buscaporreceita.png"/>
+</p>
+
+Paginação:
+
+<p align="center">
+  <img alt="Gif 1" src="paginacao.png"/>
+</p>
+
+
 
 
 ## Erros
@@ -59,5 +92,4 @@ Caso haja muita lentidão entre as funcionalidades, sugiro que você pare o serv
 
 Caso você não queira reiniciar o servidor, um ctrl + r atualizará a página e pode resolver o problema de lentidão.
 
-Você pode acompanhar as alterações que esta fazendo no arquivo ```data.json``` na pasta raíz, ele mostrará o array com membros e instrutores. Ali você pode ver também os perfis deletados e as edições realizadas.
 
