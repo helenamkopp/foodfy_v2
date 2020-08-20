@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npm-run-all -p nodemon browser-sync",
-    "nodemon": "nodemon server.js",
-    "browser-sync": "browser-sync start --proxy http://localhost:5001 --files ."
+    "nodemon": "nodemon src/server.js",
+    "browser-sync": "browser-sync start --proxy http://localhost:5001 --files 'public, src/app/views'"
   },
   "dependencies": {
     "browser-sync": "^2.26.7",

@@ -1,0 +1,40 @@
+{% extends "./layout.njk" %}
+
+{% block head %}
+    <title>Foodfy - Receitas</title>
+{% endblock %}
+
+{% block content %}
+
+    <main>
+        <div class="container">
+
+            {% if (filter) %}
+                <h1>Buscando por "{{ filter }}"</h1>
+            {% endif %}
+
+            {% if (filter != '') and (recipes == '') %}
+                <div style='margin-top: 30px;'>
+                    Não foram encontrados receitas com base na sua pesquisa!</div>
+            {% endif %}
+
+            <section class="wraper-receitas">
+                {% for recipe in recipes %}
+                    <div class="receitas cursor">
+                        <a style="text-decoration: none;" href="/recipes/{{recipe.id}}" class="redirect">
+                            <img src="{{ recipe.image }}" alt="Imagem de {{ item.title }}">
+                            <h4>{{ recipe.title }}</h4>
+                            <p>por
+                                {{ recipe.chef_name }}</p>
+                        </a>
+                    </div>
+                {% endfor %}
+
+            </section>
+        </div>
+    </section>
+    <div class="pagination" data-page={{pagination.page}} data-total={{pagination.total}} data-filter={{filter}}></div>
+
+</main>
+<script src="/scripts.js"></script>
+{% endblock %}

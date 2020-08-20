@@ -1,0 +1,412 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans&display=swap";
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    background-color: rgb(59, 59, 59);
+}
+
+header .container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+header img {
+    margin: 35px 0;
+}
+
+.container-create {
+    margin-left: 200px;
+    margin-top: 70px;
+    margin-right: 220px;
+}
+
+.container-create {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container-create button {
+    width: 200px;
+    height: 37px;
+    background-color: #1658af;
+    float: right;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 2px solid white;
+    cursor: pointer;
+    float: right;
+}
+
+.container-create button:hover {
+    background-color: #1658af34;
+    color: black;
+    border: 2px solid rgb(47, 51, 54);
+}
+
+.container-fields {
+    margin-top: 130px;
+}
+
+.titleinput {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    outline: none;
+    font-size: 18px;
+    height: 40px;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+select {
+    margin-bottom: 50px;
+}
+
+.item input {
+    margin-bottom: 50px;
+}
+
+.item-adicional textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(209, 209, 209);
+    color: rgb(0, 0, 0)
+}
+
+p {
+    font-size: 16px;
+    color: #1658af;
+    margin-top: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.recipe-img img {
+    width: 650px;
+    height: 280px;
+    margin-left: 180px;
+    border-radius: 15px;
+}
+
+.recipe-titles p {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20;
+    cursor: initial;
+    margin-bottom: 70px;
+}
+
+.recipe-titles {
+    text-align: center;
+}
+
+.recipe-titles h2 {
+    margin-top: 30px;
+    color: rgb(59, 59, 59);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.recipe-titles h4 {
+    margin-top: 5px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+#recipe-ingredientes {
+    margin-top: 50px;
+}
+
+#recipe-modopreparo {
+    margin-top: 40px;
+}
+
+#recipe-info {
+    margin: 50px 0;
+}
+
+.recipe-estilo p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(59, 59, 59);
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.recipe-estilo h4 {
+    font-size: 24px;
+    color: rgb(59, 59, 59);
+    font-weight: bold;
+}
+
+.recipe-estilo ul {
+    margin-top: 20px;
+}
+
+.recipe-estilo ul li {
+    font-size: 18px;
+    color: rgb(85, 85, 85);
+    line-height: 25px;
+}
+
+.recipe-estilo a {
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 12px;
+    color: #999999;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.recipe_title h3 {
+    margin-top: 55px;
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.recipe_title a {
+    width: 200px;
+    height: 37px;
+    background-color: #1658af;
+    float: right;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-left: 250px;
+    margin-bottom: 24px;
+}
+
+.recipe_title {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+}
+
+.button {
+    padding: 8px 32px;
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    margin-top: 55px;
+    float: right;
+}
+
+.form-delete button {
+    padding: 8px 32px;
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    margin-top: 55px;
+    float: right;
+}
+
+.cardsAdm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    margin-left: 200px;
+    margin-top: 108px;
+    margin-right: 200px;
+    margin-bottom: 30px;
+}
+
+.org {
+    display: grid;
+    grid-template-columns: 172px 1fr;
+    gap: 20px;
+}
+
+.cardsAdm .card .image-container img {
+    height: 80px;
+    width: 172px;
+    border-radius: 15px;
+}
+
+.cardsAdm .card-info .autor {
+    margin-bottom: 10px;
+}
+
+.cardsAdm .card-info .redirect {
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.cardsAdm .card-info a,
+.newRecipeButton {
+    color: #1658af;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cardsAdm .org .card .card-info .name p {
+    text-decoration: none;
+}
+
+.newRecipeButton {
+    margin-top: 80px
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+h6 {
+    font-size: 14px;
+    color: #777777;
+    font-weight: normal;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.i {
+    width: 0px;
+    height: 0px;
+}
+
+.i i {
+    color: white;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.i i:hover {
+    border: 1px solid rgb(59, 59, 59);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(207, 207, 207);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+.links a:hover {
+    color: white;
+    border: 5px solid rgb(59, 59, 59);
+}
+
+.links a.active {
+    font-weight: bold;
+    color: white;
+}
+
+.cardsAdmchefs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 108px
+    
+}
+
+.card-info h5 {
+    font-size: 18px;
+    width: 150px;
+}
+
+.cardsAdmchefs a {
+    color: #1658af;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.image-containerchefs {
+    display: flex;
+    align-items: center;
+}
+
+.image-containerchefs img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    float: right;
+}
+
+.card-info {
+    width: 50px;
+}
+
+.orgchefs {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.chef-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chef-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.chefs-titles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

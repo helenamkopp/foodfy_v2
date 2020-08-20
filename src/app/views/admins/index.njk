@@ -1,0 +1,25 @@
+{% extends "./layout.njk" %}
+
+{% block content %}
+
+  <section class="cardsAdm">
+    {% for recipe in recipes %}
+      <section class="org">
+        <div class="card" id="{{recipe.title}}">
+          <div class="image-container">
+            <img src="{{recipe.image}}" alt="">
+          </div>
+        </div>
+        <div class="card-info">
+          <h5 class="namerecipe" style="width: 300px;">
+            {{recipe.title}}
+          </h5>
+          <h6 class="autor">
+            por
+            {{recipe.chef_name}}
+          </h6>
+          <a href="/admin/recipes/{{recipe.id}}" class="redirect">Visualizar</a>
+        </div>
+      </section>
+    {% endfor %}
+    {%endblock%}
