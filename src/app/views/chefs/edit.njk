@@ -1,20 +1,43 @@
-{% extends "./layout.njk" %}
+{% extends "admin/layout.njk" %}
 
 {% block content %}
 
-  <form class="container-create" id="form-delete" action="/admin/chefs?_method=DELETE" method='post'>
-    <input type="hidden" name="id" value={{chef.id}}>
-    <button type="submit">Excluir</button>
-  </form>
-  <form action="/admin/chefs?_method=PUT" method="POST">
-    <div class="container-create">
-      <h2>Editar Chefe
-        <button class="save" type="submit">Salvar</button>
-      </h2>
-      {%include "chefs/fields.njk"%}
+    <section class="container form">
+    
+        <form class="put" method="POST" action="/chefs?_method=PUT" enctype="multipart/form-data">
+           
+            <div class="header">
+                <h1>Editando Chef</h1>
+                <div class="actions">
+                    <button class="button" type="Submite">Salvar chef</button>
+                </div>
+            </div>
 
-      <input type="hidden" name="id" value={{chef.id}}>
-    </div>
-  </form>
+            <div class="fields">
+                {% include "chefs/fields.njk" %}
+                <input 
+                    type="hidden"
+                    name="id"
+                    value="{{chef.id}}"
+                >
+                <input type="hidden" name="file_id" value={{file.id}}>
+            </div>
+        </form>
+        <form id="form-delete" method="post" action="/chefs?_method=DELETE">
+            <button id="btn_delete" class="button delete" type="Submite">Deletar</button>
+            <input type="hidden" name="id" value="{{chef.id}}">
+            <input type="hidden" name="file_id" value={{file.id}}>
+        </form>
+    </section>
 
-  {% endblock%}
+    <script>
+        const formDelete = document.querySelector("#form-delete")
+        formDelete.addEventListener("submit", function(event) {
+            const confirmation = confirm("Deseja Deletar?")
+            if(!confirmation) {
+                event.preventDefault()
+            }
+        })
+    </script>
+
+{% endblock %}

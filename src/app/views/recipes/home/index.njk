@@ -1,0 +1,12 @@
+{% extends "admin/layout.njk" %}
+{% import "admin/parts/section-recipes.njk" as section %}
+
+{% block head %}
+    <title>Foodfy - Listagem de receitas</title>
+{% endblock head %}
+
+{% block content %}
+
+    {{section.recipes('Últimas receitas', 'recipe_list', recipes)}}
+
+{% endblock content %}

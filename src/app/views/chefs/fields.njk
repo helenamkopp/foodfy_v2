@@ -1,14 +1,40 @@
-<div class="container-fields">
-  <div class="item">
-    <div class="titleinput">Nome</div>
-    <div>
-      <input type="text" name="name" value="{{chef.name}}">
+<div class="item">
+    <div>Nome</div>
+
+    <input 
+        type="text"
+        name="name"
+        value="{{chef.name}}"
+    >
+</div>
+
+<div class="item">
+    <div>Avatar</div>
+
+    <div id="photos-upload">
+
+        <input
+            id="photos-input"
+            type="file"
+            name="profile_photo"
+            accept="image/*"
+            onchange="PhotosUpload.handleFileInput(event)"
+            value = "{{file.path}}"
+        >
+        <p>Enviar avatar</p>
     </div>
-  </div>
-  <div class="item">
-    <div class="titleinput">Avatar</div>
-    <div>
-      <input type="url" name="avatar_url" value="{{chef.avatar_url}}">
+    <div id="photo-profile-preview">
+        {% if file %}
+
+            <div class="photo" id="{{file.id}}">
+                <img src="{{file.src}}" alt="{{file.name}}">
+                <i class="material-icons"
+                    onclick="PhotosUpload.removeOldPhotos(event)"
+                >delete</i>
+            </div>
+
+            <input type="hidden" name="removed_files">
+
+        {% endif %}
     </div>
-  </div>
 </div>

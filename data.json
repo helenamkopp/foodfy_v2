@@ -1,0 +1,248 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/burger.png",
+      "title": "Triplo bacon burger",
+      "author": "Jorge Relato",
+      "ingredients": [
+        "3 kg de carne moída (escolha uma carne magra e macia)1",
+        "300 g de bacon moído",
+        "1 ovo",
+        "3 colheres (sopa) de farinha de trigo",
+        "3 colheres (sopa) de tempero caseiro: feito com alho, sal, cebola, pimenta e cheiro verde processados no liquidificador",
+        "30 ml de água gelada"
+      ],
+      "preparation": [
+        "Misture todos os ingredientes muito bem e amasse para que fique tudo muito bem misturado.",
+        "Faça porções de 90 g a 100 g.",
+        "Forre um plástico molhado em uma bancada e modele os hambúrgueres utilizando um aro como base.",
+        "Faça um de cada vez e retire o aro logo em seguida.",
+        "Forre uma assadeira de metal com plástico, coloque os hambúrgueres e intercale camadas de carne e plásticos (sem apertar).",
+        "Faça no máximo 4 camadas por forma e leve para congelar.",
+        "Retire do congelador, frite ou asse e está pronto."
+      ],
+      "information": "Preaqueça a chapa, frigideira ou grelha por 10 minutos antes de levar os hambúrgueres. Adicione um pouquinho de óleo ou manteiga e não amasse os hambúrgueres!  Você sabia que a receita que precede o hambúrguer surgiu no século XIII, na Europa? A ideia de moer a carne chegou em Hamburgo no século XVII, onde um açogueiro resolveu também temperá-la. Assim, a receita foi disseminada nos Estados Unidos por alemães da região. Lá surgiu a ideia de colocar o hambúrguer no meio do pão e adicionar outros ingredientes, como queijom tomates e alface.",
+      "recipe_image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/burger.png",
+      "recipe_ingredient": [
+        "3 kg de carne moída (escolha uma carne magra e macia)1",
+        "300 g de bacon moído",
+        "1 ovo",
+        "3 colheres (sopa) de farinha de trigo",
+        "3 colheres (sopa) de tempero caseiro: feito com alho, sal, cebola, pimenta e cheiro verde processados no liquidificador",
+        "30 ml de água gelada"
+      ],
+      "recipe_preparation": [
+        "Misture todos os ingredientes muito bem e amasse para que fique tudo muito bem misturado.",
+        "Faça porções de 90 g a 100 g.",
+        "Forre um plástico molhado em uma bancada e modele os hambúrgueres utilizando um aro como base.",
+        "Faça um de cada vez e retire o aro logo em seguida.",
+        "Forre uma assadeira de metal com plástico, coloque os hambúrgueres e intercale camadas de carne e plásticos (sem apertar).",
+        "Faça no máximo 4 camadas por forma e leve para congelar.",
+        "Retire do congelador, frite ou asse e está pronto."
+      ],
+      "recipe_information": "Preaqueça a chapa, frigideira ou grelha por 10 minutos antes de levar os hambúrgueres. Adicione um pouquinho de óleo ou manteiga e não amasse os hambúrgueres!  Você sabia que a receita que precede o hambúrguer surgiu no século XIII, na Europa? A ideia de moer a carne chegou em Hamburgo no século XVII, onde um açogueiro resolveu também temperá-la. Assim, a receita foi disseminada nos Estados Unidos por alemães da região. Lá surgiu a ideia de colocar o hambúrguer no meio do pão e adicionar outros ingredientes, como queijom tomates e alface."
+    },
+    {
+      "id": "2",
+      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/pizza.png",
+      "title": "Pizza 4 estações",
+      "author": "Fabiana Melo",
+      "ingredients": [
+        "1 xícara (chá) de leite",
+        "1 ovo",
+        "1 colher (chá) de sal",
+        "1 colher (chá) de açúcar",
+        "1 colher (sopa) de margarina",
+        "1 e 1/2 xícara (chá) de farinha de trigo",
+        "1 colher (sobremesa) de fermento em pó",
+        "1/2 lata de molho de tomate",
+        "250 g de mussarela ralada grossa",
+        "2 tomates fatiados",
+        "azeitona picada",
+        "orégano a gosto"
+      ],
+      "preparation": [
+        "No liquidificador bata o leite, o ovo, o sal, o açúcar, a margarina, a farinha de trigo e o fermento em pó até que tudo esteja encorporado.",
+        "Despeje a massa em uma assadeira para pizza untada com margarina e leve ao forno preaquecido por 20 minutos.",
+        "Retire do forno e despeje o molho de tomate.",
+        "Cubra a massa com mussarela ralada, tomate e orégano a gosto.",
+        "Leve novamente ao forno até derreter a mussarela."
+      ],
+      "information": "Pizza de liquidificador é uma receita deliciosa e supersimples de preparar. Feita toda no liquidificador, ela é bem prática para o dia a dia. Aqui no TudoGostoso você também encontra diversas delícias práticas feitas no liquidificador: massa de panqueca, torta de frango de liquidificador, pão de queijo de liquidificador, bolo de banana, bolo de chocolate e muito mais!",
+      "recipe_image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/pizza.png",
+      "recipe_ingredient": [
+        "1 xícara (chá) de leite",
+        "1 ovo",
+        "1 colher (chá) de sal",
+        "1 colher (chá) de açúcar",
+        "1 colher (sopa) de margarina",
+        "1 e 1/2 xícara (chá) de farinha de trigo",
+        "1 colher (sobremesa) de fermento em pó",
+        "1/2 lata de molho de tomate",
+        "250 g de mussarela ralada grossa",
+        "2 tomates fatiados",
+        "azeitona picada",
+        "orégano a gosto"
+      ],
+      "recipe_preparation": [
+        "No liquidificador bata o leite, o ovo, o sal, o açúcar, a margarina, a farinha de trigo e o fermento em pó até que tudo esteja encorporado.",
+        "Despeje a massa em uma assadeira para pizza untada com margarina e leve ao forno preaquecido por 20 minutos.",
+        "Retire do forno e despeje o molho de tomate.",
+        "Cubra a massa com mussarela ralada, tomate e orégano a gosto.",
+        "Leve novamente ao forno até derreter a mussarela."
+      ],
+      "recipe_information": "Pizza de liquidificador é uma receita deliciosa e supersimples de preparar. Feita toda no liquidificador, ela é bem prática para o dia a dia. Aqui no TudoGostoso você também encontra diversas delícias práticas feitas no liquidificador: massa de panqueca, torta de frango de liquidificador, pão de queijo de liquidificador, bolo de banana, bolo de chocolate e muito mais!"
+    },
+    {
+      "id": 3,
+      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/asinha.png",
+      "title": "Asinhas de frango ao barbecue",
+      "author": "Vania Steroski",
+      "ingredients": [
+        "12 encontros de asinha de galinha, temperados a gosto",
+        "2 colheres de sopa de farinha de trigo",
+        "1/2 xícara (chá) de óleo",
+        "1 xícara de molho barbecue"
+      ],
+      "preparation": [
+        "Em uma tigela coloque o encontro de asinha de galinha e polvilhe a farinha de trigo e misture com as mãos.",
+        "Em uma frigideira ou assador coloque o óleo quando estiver quente frite até ficarem douradas.",
+        "Para servir fica bonito com salada, ou abuse da criatividade."
+      ],
+      "information": ""
+    },
+    {
+      "id": 4,
+      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/lasanha.png",
+      "title": "Lasanha mac n/' cheese",
+      "author": "Juliano Vieira",
+      "ingredients": [
+        "massa pronta de lasanha",
+        "400 g de presunto",
+        "400 g de mussarela ralada",
+        "2 copos de requeijão",
+        "150 g de mussarela para gratinar"
+      ],
+      "preparation": [
+        "Em uma panela, coloque a manteiga para derreter.",
+        "Acrescente a farinha de trigo e misture bem com auxílio de um fouet.",
+        "Adicione o leite e misture até formar um creme homogêneo.",
+        "Tempere com sal, pimenta e noz-moscada a gosto.",
+        "Desligue o fogo e acrescente o creme de leite; misture bem e reserve."
+      ],
+      "information": "Recheie a lasanha com o que preferir."
+    },
+    {
+      "id": 5,
+      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/macarrao.png",
+      "title": "Espaguete ao alho",
+      "author": "Júlia Kinoto",
+      "ingredients": [
+        "1 pacote de macarrão 500 g (tipo do macarrão a gosto)",
+        "1 saquinho de alho granulado",
+        "1/2 tablete de manteiga (não use margarina)",
+        "1 colher (sopa) de azeite extra virgem",
+        "ervas (manjericão, orégano, salsa, cebolinha, tomilho, a gosto)",
+        "sal",
+        "1 dente de alho",
+        "gengibre em pó a gosto",
+        "1 folha de louro"
+      ],
+      "preparation": [
+        "Quando faltar mais ou menos 5 minutos para ficar no ponto de escorrer o macarrão, comece o preparo da receita.",
+        "Na frigideira quente coloque a manteiga, o azeite, a folha de louro, e o alho granulado.",
+        "Nesta hora um pouco de agilidade, pois o macarrão escorrido vai para a frigideira, sendo mexido e dosado com sal a gosto, as ervas, o gengibre em pó a gosto também.",
+        "O dente de alho, serve para você untar os pratos onde serão servidos o macarrão.",
+        "Coloque as porções nos pratos já com o cheiro do alho, e enfeite com algumas ervas."
+      ],
+      "information": "Não lave o macarrão nem passe óleo ou gordura nele depois de escorrê-lo. Coloque direto na frigideira."
+    },
+    {
+      "id": 6,
+      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/doce.png",
+      "title": "Docinhos pão-do-céu",
+      "author": "Ricardo Golvea",
+      "ingredients": [
+        "1 kg de batata - doce",
+        "100 g de manteiga",
+        "3 ovos",
+        "1 pacote de coco seco ralado (100 g)",
+        "3 colheres (sopa) de açúcar 1 lata de Leite Moça",
+        "1 colher (sopa) de fermento em pó",
+        "manteiga para untar",
+        "açúcar de confeiteiro"
+      ],
+      "preparation": [
+        "Cozinhe a batata-doce numa panela de pressão, com meio litro de água, por cerca de 20 minutos. Descasque e passe pelo espremedor, ainda quente.",
+        "Junte a manteiga,os ovos, o coco ralado,o açúcar, o Leite Moça e o fermento em pó, mexendo bem após cada adição.",
+        "Despeje em assadeira retangular média, untada e leve ao forno médio (180°C), por aproximadamente 45 minutos. Depois de frio, polvilhe, com o",
+        "açúcar de confeiteiro e corte em quadrados."
+      ],
+      "information": ""
+    },
+    {
+      "id": 7,
+      "title": "Feijoada",
+      "author": "Autor de teste",
+      "image": "https://images.unsplash.com/photo-1523986490752-c28064f26be3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "ingredients": [
+        "Feijão preto",
+        "Linguiça",
+        "Carne de porco",
+        "Arroz branco",
+        "Farofa"
+      ],
+      "preparation": [
+        "Aqueça por 50 min",
+        "Misture tudo",
+        "E pronto!"
+      ],
+      "information": "Um excelente prato para família, servindo até 4 pessoas."
+    },
+    {
+      "id": 8,
+      "image": "data:image/jpeg;base64,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",
+      "ingredients": [
+        "teste 1",
+        "teste 2",
+        "teste 3"
+      ],
+      "preparation": [
+        "abc 1",
+        "abc 2"
+      ],
+      "information": "TESTEEEEEEEEEEEE"
+    },
+    {
+      "id": 9,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS06EQLAvM4VgV1Rq2B0hQ6FMHazrq8_R2jc9M7HqscNMqyk5wH",
+      "ingredients": [
+        "Molho branco",
+        "Orégano",
+        "Macarrão "
+      ],
+      "preparation": [
+        "Teste C",
+        "abc 2",
+        "aaaa"
+      ],
+      "information": "adsadsdasd"
+    },
+    {
+      "id": 10,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS06EQLAvM4VgV1Rq2B0hQ6FMHazrq8_R2jc9M7HqscNMqyk5wH",
+      "ingredients": [
+        "Molho branco",
+        "Orégano",
+        "Macarrão "
+      ],
+      "preparation": [
+        "Teste C",
+        "abc 2",
+        "aaaa"
+      ],
+      "information": "adsadsdasd"
+    }
+  ]
+}

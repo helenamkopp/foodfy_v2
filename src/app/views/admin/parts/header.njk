@@ -1,0 +1,30 @@
+<header>
+    <div class="container">
+        <a href="/recipes">
+            <div class="logo">
+            </div>
+        </a>
+
+        <form class="search" method="GET" action="/recipes/search">
+            <input
+                type="text"
+                name="filter"
+                placeholder="Buscar por receitas"
+                {% if search.term %}
+                    value="{{search.term}}"
+                {% endif %}
+            >
+        </form>
+
+        <nav class="primary links">
+            <ul>
+                <li>
+                    <a href="/recipes">RECEITAS</a>
+                </li>
+                <li>
+                    <a href="/chefs">CHEFS</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>

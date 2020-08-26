@@ -1,0 +1,22 @@
+{% extends "admin/layout.njk" %}
+{% import "admin/parts/section-recipes.njk" as section %}
+
+{% block head %}
+    <title>Foodfy {{search.term}}</title>
+{% endblock head %}
+
+{% block content %}
+
+    <section class="search-recipes container">
+        <aside>
+            <div class="header-search">
+                <h2>{{search.term}}</h2>
+                <p>{{search.total}} encontrados</p>
+            </div>
+        </aside>
+
+        {{section.recipes('', 'recipe_list', recipes)}}
+
+    </section>
+
+{% endblock content %}
